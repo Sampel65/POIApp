@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>MyApp</string>
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app requires access to your location to display your current position on the map.</string>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location to provide accurate real-time positioning even in the background.</string>
+
+    <key>NSLocationUsageDescription</key>
+    <string>Accessing your location allows the app to show your current position on the map.</string>
+
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+        <key>PreciseLocation</key>
+        <string>We need precise location access to ensure accurate navigation and positioning.</string>
+    </dict>
+
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+        <string>location-services</string>
+    </array>
+
+    <key>NSPrivacyLocationUsageDescription</key>
+    <string>This app requires your location to display your position on the map.</string>
+</dict>
+</plist>

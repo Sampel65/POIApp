@@ -59,37 +59,42 @@ git clone https://github.com/sampel65/POIApp.git
 -Open the project in Xcode:
 
 cd POIApp
+
 open POIApp.xcodeproj
+
 Build and run the app on a simulator or a physical device.
 
 Assumptions
-The app assumes that the user has granted location permissions.
 
-The app uses CoreData for local storage, so it requires iOS 13 or later.
+-The app assumes that the user has granted location permissions.
+
+-The app uses CoreData for local storage, so it requires iOS 13 or later.
 
 Limitations
-The app does not handle all edge cases for location services (e.g., if the user denies location access).
 
-The app does not include extensive unit tests.
+-The app does not handle all edge cases for location services (e.g., if the user denies location access).
 
-Areas for Improvement
-Add more robust error handling for location services and network requests.
+-The app does not include extensive unit tests.
 
-Implement a retry mechanism for failed searches.
+-Areas for Improvement
 
-Add more unit tests, especially for the PersistenceManager and SearchViewModel.
+-Add more robust error handling for location services and network requests.
+
+-Implement a retry mechanism for failed searches.
+
+-Add more unit tests, especially for the PersistenceManager and SearchViewModel.
 
 Approach
-The app follows the MVVM architecture to separate concerns and improve maintainability.
+-The app follows the MVVM architecture to separate concerns and improve maintainability.
 
-The app uses Combine for reactive programming, especially for handling location updates.
+-The app uses Combine for reactive programming, especially for handling location updates.
 
-CoreData is used for local storage, allowing users to save favorite places for offline access.
+-CoreData is used for local storage, allowing users to save favorite places for offline access.
 
 Trade-offs & Challenges
-Due to time constraints, not all edge cases were handled (e.g., network failures, location access denied).
+-Due to time constraints, not all edge cases were handled (e.g., network failures, location access denied).
 
-The app could benefit from more extensive unit testing, but this was not completed due to time limitations.
+-The app could benefit from more extensive unit testing, but this was not completed due to time limitations.
 
 
 
